@@ -58,6 +58,11 @@
     margin-top: 5%;
     margin-left: 22%;
 }
+.image-person{
+    background: rgba(116, 165, 206, 0.678);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.459) 0px 3px 8px;
+}
 
 .person-description-title {
     font-weight: 700;
@@ -150,8 +155,6 @@
 
 .image-details {
     padding: 5%;
-
-    
 }
 
 .image-details-title {
@@ -171,7 +174,7 @@
 .resolution-description {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     gap: 30px;
     margin-bottom: 40px;
 }
@@ -197,9 +200,6 @@
     text-align: left;
     padding: 10px ;
     text-align: justify;
-
-    /* Dark 03 */
-
     color: #737272;
 }
 
@@ -208,42 +208,41 @@
 /* footer start here  */
 .footer {
     display: flex;
+    justify-content: center;
+    align-items:baseline;
+    gap: 330px;
     background-color: #151414;
-
+    padding-top: 130px;
+    padding-bottom: 200px;
 }
 
-.footer-section-1 {
-    padding: 130px 230px;
+.footer-section-1{
+    padding-left: 230px ;
+    
 }
 
 .footer-section-1-title {
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
-
-    /* identical to box height */
-
     color: #F8F8F8;
+    border: 20x solid red;  
 }
 
 .footer-section-1-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-
-    /* or 162% */
-
     color: #FFFFFF;
 }
 
 .footer-icon {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     list-style: none;
 }
 
 .footer-section-2 {
-    padding-top: 130px;
     padding-right: 230px;
 }
 
